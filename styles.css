@@ -11,7 +11,7 @@
   margin: 0;
   padding: 0;
 }
-  
+
 *,
 *::before,
 *::after {
@@ -28,7 +28,7 @@ html {
 @media (max-width: 75em) {
   html {
     font-size: 60%;
-    }
+  }
 }
 
 @media (max-width: 61.25em) {
@@ -36,7 +36,6 @@ html {
     font-size: 58%;
   }
 }
-
 
 @media (max-width: 28.75em) {
   html {
@@ -48,6 +47,13 @@ ul {
   list-style: none;
 }
 
+h1 {
+  text-align: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 40px;
+  color: var(--dark-green);
+  background-color: var(--gold);
+}
 h2 {
   text-align: center;
   font-size: 30px;
@@ -80,11 +86,11 @@ a {
 }
 
 .nav-list {
-  display: flex;
+    display: flex;
   margin-right: 2rem;
 }
 
-@media (max-width: 27em) {
+@media  (max-width: 27em) {
   .nav {
       justify-content: center;
   }
@@ -127,7 +133,7 @@ img {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  padding: 200px;
+  padding: 230px;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -187,19 +193,24 @@ img {
 }
 
 @media (max-width: 30.625em) {
-    .projects-section {
+  .projects-section {
   padding: 6rem 1rem;
-    }
+  }
   
-    .projects-grid {
+  .projects-grid {
       grid-template-columns: 1fr;
-    }
+  }
 }
 
 .project {
   background: var(--dark-green);
   box-shadow: var(--cream);
   border-radius: 3px;
+}
+
+.code {
+  padding: 0 10px;
+  color: var(--gold);
 }
 
 .project:hover .code {
@@ -230,7 +241,7 @@ img {
   border: solid var(--gold);
 }
 
-.contact-section-header > h2 {
+    .contact-section-header > h2 {
   font-size: 40px;
 }
   
@@ -276,17 +287,12 @@ img {
   color:  rgba(6, 31, 157, 0.984);
 }
 
-.code {
-  padding: 0 10px;
-  color: var(--gold);
-}
-
 footer {
   margin-top: 30px;
   background-color: var(--dark-green);
   padding: 20px;
 }
-  
+
 footer > ul {
   display: flex;
   justify-content: flex-end;

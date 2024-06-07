@@ -6,8 +6,10 @@ This personal portfolio page is a digital showcase of my journey in web developm
 ## Demo 📸
 
 - Take a glimpse of the page below: 
+(#<img width="935" alt="Screenshot 2024-06-07 054456" src="https://github.com/Fikrat2002/personal-portfolio/assets/168417613/664756b9-5a93-4a0f-ba03-ad1a6aa9df80">)
 
-
+## Deployment
+- https://fikrat2002.github.io/personal-portfolio/
 
 ## Technologies Used 🛠️
 
