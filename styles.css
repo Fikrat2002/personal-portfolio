@@ -54,6 +54,7 @@ h1 {
   color: var(--dark-green);
   background-color: var(--gold);
 }
+
 h2 {
   text-align: center;
   font-size: 30px;
@@ -86,16 +87,16 @@ a {
 }
 
 .nav-list {
-    display: flex;
+  display: flex;
   margin-right: 2rem;
 }
 
-@media  (max-width: 27em) {
-  .nav {
+@media (max-width: 27em) {
+    .nav {
       justify-content: center;
   }
 
-  .nav-list {
+    .nav-list {
       margin: 0 1rem;
   }
 }
@@ -173,9 +174,9 @@ img {
 }
 
 @media (max-width: 28.75em) {
-  .projects-section-header {
-      font-size: 3rem;
-    }
+    .projects-section-header {
+  font-size: 3rem;
+  }
 }
 
 .projects-grid {
@@ -193,12 +194,11 @@ img {
 }
 
 @media (max-width: 30.625em) {
-  .projects-section {
+    .projects-section {
   padding: 6rem 1rem;
   }
-  
-  .projects-grid {
-      grid-template-columns: 1fr;
+    .projects-grid {
+  grid-template-columns: 1fr;
   }
 }
 
@@ -241,14 +241,14 @@ img {
   border: solid var(--gold);
 }
 
-    .contact-section-header > h2 {
+.contact-section-header > h2 {
   font-size: 40px;
 }
-  
+
 @media (max-width: 28.75em) {
-  .contact-section-header > h2 {
+    .contact-section-header > h2 {
   font-size: 2rem;
-    }
+  }
 }
 
 .contact-links {
@@ -284,7 +284,7 @@ img {
 }
 
 .ri-linkedin-box-fill {
-  color:  rgba(6, 31, 157, 0.984);
+  color: rgba(6, 31, 157, 0.984);
 }
 
 footer {
