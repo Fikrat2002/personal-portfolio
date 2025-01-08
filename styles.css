@@ -311,3 +311,128 @@ footer > span {
   font-size: 16px;
   color: var(--cream);
 }
+.skills-section {
+  background-color: #f9f9f9;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.section-title {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.skill-item {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.skill-item:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.skill-icon {
+  font-size: 3rem;
+  color: #007bff;
+  margin-bottom: 15px;
+}
+
+.skill-item h3 {
+  font-size: 1.5rem;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.skill-item p {
+  font-size: 1rem;
+  color: #666;
+}
+.cv-section {
+  background-color: #007bff;
+  color: #fff;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.cv-section .section-title {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.cv-description {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 1.6;
+}
+
+.cv-download-btn {
+  display: inline-block;
+  padding: 15px 30px;
+  font-size: 1.2rem;
+  color: #007bff;
+  background-color: #fff;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.cv-download-btn:hover {
+  background-color: #e6e6e6;
+  transform: scale(1.05);
+}
+.certificates-section {
+  background-color: #f9f9f9;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.certificates-section-header {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.certificates-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  justify-items: center;
+}
+
+.certificate-tile {
+  background-color: #007bff;
+  padding: 20px;
+  color: white;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: transform 0.3s;
+}
+
+.certificate-tile:hover {
+  transform: scale(1.05);
+}
+
+.certificate-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
